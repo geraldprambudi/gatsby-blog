@@ -1,11 +1,13 @@
 import React from "react"
-
+import Layout from "../components/Layout"
+import Metadata from "../components/metadata"
 const Contact = () => {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>You can find geraldprambudi on Twitter via @ngodingkuy</p>
-    </div>
+    <Layout>
+      <Metadata title="contact" description="this is my contact" />
+      <h1>contact Page</h1>
+      <h2>check my github geraldprambudi/h2>
+    </Layout>
   )
 }
 
